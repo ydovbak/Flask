@@ -27,10 +27,10 @@ $ (env) python app.py
 My own notes:
 `
 (env) PS C:\Users\Julia\Documents\Year4\Project\Flask> python
->>> from app import db
+from app import db
 `
 
 This should create database
 `
->>> db.create_all()
+db.create_all()
 `
